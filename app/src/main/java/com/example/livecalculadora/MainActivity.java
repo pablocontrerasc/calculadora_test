@@ -28,23 +28,23 @@ public class MainActivity extends AppCompatActivity {
     public void sumar(View view) {
         int resultadoNumero = Integer.parseInt(cifra_01.getText().toString()) + Integer.parseInt(cifra_02.getText().toString());
         resultado.setText(resultadoNumero + "");
-        Log.d("operacionSuma","Boton suma apretado");
+        Log.d("operacionSuma","Presionaste el boton suma ");
     }
 
     public void restar(View view) {
         int resultadoNumero = Integer.parseInt(cifra_01.getText().toString()) - Integer.parseInt(cifra_02.getText().toString());
         resultado.setText(resultadoNumero + "");
-        Log.d("operacionResta","Boton resta apretado");
+        Log.d("operacionResta","Presionaste el boton resta");
     }
     public void multiplicar(View view) {
         int resultadoNumero = Integer.parseInt(cifra_01.getText().toString()) * Integer.parseInt(cifra_02.getText().toString());
         resultado.setText(resultadoNumero + "");
-        Log.d("operacionMult","Boton multiplicacion apretado");
+        Log.d("operacionMult","Presionaste el boton multiplicacion");
     }
     public void dividir(View view) {
         int resultadoNumero = Integer.parseInt(cifra_01.getText().toString()) / Integer.parseInt(cifra_02.getText().toString());
         resultado.setText(resultadoNumero + "");
-        Log.d("operacionDiv","Boton division apretado");
+        Log.d("operacionDiv","Presionaste el boton division ");
     }
 
 }
